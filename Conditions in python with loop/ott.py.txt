@@ -1,0 +1,48 @@
+'''
+Program :- A simple OTT app application to check the ise of if/elif/else statement
+
+Author :- AmRiyaz
+
+Last Modified :- August 2021
+'''
+in1 = input("enter you name :- ")
+
+print('hello ' +in1)
+
+
+print('please select the category of ott')
+
+print('1 - for amazon prime')
+
+print('2 - for netflix')
+
+print('3 - for hotstar')
+
+print('4 - for zee5')
+
+print('=========')
+
+i
+n3= int(input('select your category: '))
+
+if(in3 == 1):
+
+	print('amazon subscription successfull')
+
+elif(in3 == 2):
+
+	print('netflix subscription successfull')
+
+elif(in3 == 3):
+
+	print('hotstar subscription successfull')
+
+elif(in3 == 4):
+
+	print('zee5 subscription successfull')
+
+else:
+
+print('please put valid ott id')
+
+print('=== thankyou for using the service===')
